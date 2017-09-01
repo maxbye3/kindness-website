@@ -152,7 +152,9 @@
   .questionSection{
     width: 100%; 
     font-family: loveya; 
-    background: orange;
+    background-image: url(../img/background_blue.png);
+    background-repeat: repeat;
+    background-size: 200px;
   }
 
   .questionSection h1{
