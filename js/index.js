@@ -35,7 +35,6 @@ if (window.chrome){
   if($(window).width() < 992){
     $('.more-btn').hide();
   }
-
  });
 
 
@@ -46,6 +45,14 @@ function hideLol(){
     $(".lol-section").hide();
     $(".showLol").show();
 }
+
+/*
+* Send Now
+* FormSpree message
+*/
+// function sendNow(){
+//   alert('hmmm... something seems to have gone wrong.\n Please copy contents of message and mail to maxbye@gmail.com');
+// }
 
 /*
 * SHOW LOL COMMIT PROJ
