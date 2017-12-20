@@ -19,10 +19,17 @@
     display: block;
     text-align: -webkit-center;
     background: #9dd7e1;
+    background: url(../img/seigaiha.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
+  
+
 
   header{
-    height: 35vh;
+    height: 25vh;
     padding: 0 20%;
     z-index: 10;
     top: 0px;
@@ -37,7 +44,6 @@
   
   .blurb button h1{
     font-size: 25px;
-    font-family: bebas;
   }
   
   header a, header h1{
@@ -88,7 +94,7 @@
   }
 
   .blurb{
-    padding: 20vh 0 25vh 0;
+    padding: 10vh 10vw 25vh 10vw;
   }
 
   .blurb h1{
@@ -104,7 +110,8 @@
   }
 
   .blurb button{
-    width: 288px;
+    width: 100%;
+    min-width: 200px;
     padding: 8px;
     border-radius: 100px;
     border: 0px;
@@ -113,7 +120,7 @@
     margin-top: 20px;
   }
 
-  .learnMore{
+  .learnMore{    
     font-size: 37px !important;
     margin-top: 15px !important;
   }
@@ -135,29 +142,31 @@
 	  
   	}
   	li{
-      width: 19.2%;
+      /* width: 19.2%; */
 	  }
+  }
+
+  .row{
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   /* CONTACT */
   #copyright{
-      color: black;
-      margin: 0px;
-      margin-top: 10px;
-      padding: 0px;
-      font-family: arial;
-      position: absolute;
-      width: 100vw;
-      font-size: 15px;
+    font-size: 26px;
+    color: black;
+    margin: 0px;
+    margin-top: 12px;
+    padding: 0px;
+    position: absolute;
+    width: 100vw;
   }
 
   .questionSection{
+    padding-top: 20px;
     width: 100%; 
     font-family: loveya; 
-    background-image: url(../img/background_blue.png);
-    background-repeat: repeat;
-    background-size: 200px;
-    margin: 0px;
+    background: orange;
   }
 
   .questionSection h1{
@@ -167,17 +176,28 @@
   .questionSection .description{
     padding-top: 50px;
     color: white;
-    padding: 50px;
+    padding: 20px 50px 20px 50px;
+    
   }
   .questionSection .form{
-    font-family: sans-serif;    
+    font-family: sans-serif;
+  }
+
+  #copyright p {
+    margin: -10px 0 1.5em 0;
   }
   /* contact */
 
-  /* if less than 1170 then do stuff */
-  @media (max-width: 1170px){
-    .cd-timeline-block{
-      margin-left: 20px;
-      margin-right: 20px;
-    }
+  .ios{
+    background: #c83bb7 !important;
   }
+  
+  .ios h1, .android h1{
+	  font-family: bebas !important;
+  }
+  
+  .leaderboardText:hover {
+	  text-decoration: underline;
+	  cursor: pointer;
+  }
+  
