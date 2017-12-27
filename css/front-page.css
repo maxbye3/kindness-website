@@ -13,6 +13,16 @@
     margin:0px;
   }
  
+
+  iframe{
+    margin-top: 10px;
+  }
+
+  @media (max-width: 448px) {
+    iframe {
+        width: 100%;
+    }
+  }
   
   .frontPage{
     text-align: center;
