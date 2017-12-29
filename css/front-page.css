@@ -176,7 +176,7 @@
     padding-top: 20px;
     width: 100%; 
     font-family: loveya; 
-    background: orange;
+    background: url(http://thekindnessapp.com/img/background_red.png) fixed center;
   }
 
   .questionSection h1{
