@@ -67,9 +67,9 @@
 				if($(window).scrollTop() != 0){                    
 					$('.titleContainer').hide();
 					$('header p span').css('color','black');
-                    $('header').css({'position':'fixed','height':'auto'});
-                }
-                else{
+          $('header').css({'position':'fixed','height':'auto'});
+        }
+        else{
 					$('.titleContainer').show();
 					$('header p span').css('color','white');
 					$('header').css({'position':'relative','height':'35vh'});					
