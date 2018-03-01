@@ -7,16 +7,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta charset="utf-8">
 	
-  <meta property="og:url"                content="The Kindness App" />
-  <meta property="og:type"               content="article" />
-  <meta property="og:title"              content="The Kindness App" />
-  <meta property="og:description"        content="Free app to help you form the habit of kindness." />
-  <meta property="og:image"              content="http://thekindnessapp.com/img/heart.png" />
-  
-  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-  <link rel="icon" type="image/ico" href="favicon-16x16.png" sizes="16x16" />
-
   <!-- Custom Bootstrap-->  
   <link href="css/custom-bootstrap.css" rel="stylesheet" media="screen" class="base">
   <link href="css/moonhead.css" rel="stylesheet" media="screen" class="base">
@@ -25,7 +15,6 @@
 	<link rel="stylesheet" href="css/roadmap.css"> <!-- Resource style -->
 	<link rel="stylesheet" href="css/front-page.css"> <!-- Resource style -->
 	<!-- <script src="https://codyhouse.co/demo/vertical-timeline/js/modernizr.js"></script> Modernizr  -->
-
 
 	<title>Kindness | The easiest way possible form a habit of being kind</title>
   </head>
@@ -38,7 +27,7 @@
 			      <h1>The Kindness App</h1>
 				</div>
 
-				<ul>
+				<ul class='nav'>
 					<!-- QUESTION MARK -->
 					<li class='what' onclick='goTo("what")'>
 					  <a>					    
@@ -80,12 +69,12 @@
 			</nav>
 		</header>
 		<div class='blurb'>
-            <iframe style='margin-bottom: 40px;' width="448" height="252" src="https://www.youtube.com/embed/rPHz0UfNz60" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            <iframe style='margin-bottom: 40px;' width="448" height="252" src="https://www.youtube.com/embed/6Ron9UF3lKE" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
             <h1> Use your <!-- PHONE_IMAGE --> <img class='icon' src='img/icons/home/mobile-phone.svg'> </h1>
             <h1> to be a kinder more compassionate person </h1>
             <div class='row'>
             <div class='col-md-3 col-md-offset-3'>
-              <button class='android' onclick='window.open("https://play.google.com/store/apps/details?id=com.maxbye.kindness","_blank")'>
+              <button onclick='window.open("https://play.google.com/store/apps/details?id=com.maxbye.kindness","_blank")'>
                 <h1>android<br>download</h1>             
               </button>
             </div>
@@ -111,7 +100,8 @@
 			</div>
 			<div class="cd-timeline-content">
 				<h2>Your Feedback is always the priority</h2>
-				<p>If you see anything wrong / have a suggestion, I'll attack that as soon as humanly possible.</p>
+				<p>If you see anything wrong on your device or have a suggestion, I'll attack that as soon as humanly possible.</p>
+				<p>If you have any ideas please contact me below in the <span onclick='goTo("question")' class='hyperlink'>help me section.</span></p>
 				<!-- <a href="#0" class="cd-read-more">Read more</a> -->
 				<!-- <span class="cd-date">Jan 14</span> -->
 			</div> <!-- cd-timeline-content -->
@@ -119,49 +109,129 @@
 
 		<div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-movie">
-				<img src="img/icons/kindness-roadmap/snowflake.svg" alt="Movie">
+				<img src="img/icons/kindness-roadmap/movie-player.svg" alt="Movie">
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
-				<h2>Winter Theme</h2>
+				<h2>Short films to provide context</h2>
 				<p>
-          Grab the coco, a snowy winter theme has been added to the app. 
-          Alongside a theme selector in the main menu so you can always flick back to the summer beach.
-          I better get cracking on spring!
-        </p>
-				<!-- <a href="#0" class="cd-read-more">Read more</a>
-				<span class="cd-date">Jan 18</span> -->
+					I'm creating three short animations to help contextualize The Kindness App.
+					The first (being worked on at the minute) is how kindness can help with sleep.
+					The next two are on how kindness can help with stress and anxiety.
+				</p>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-movie">
+				<img src="img/icons/kindness-roadmap/movie-player.svg" alt="Movie">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Sketching</h2>
+				<p>
+					I've finished sketched out how Panda (the protagonist) will survive without sleep. <br>
+					Now to put it all together.
+					<div class='row'>
+						<div class='col-xs-3'>
+							<a href='img/roadmap/1.jpg' target='_blank'><img src='img/roadmap/1.jpg' style='width: 100%; margin-top: 10px;'></a>
+						</div>
+						<div class='col-xs-3'>
+							<a href='img/roadmap/2.jpg' target='_blank'><img src='img/roadmap/2.jpg' style='width: 100%; margin-top: 10px;'></a>
+						</div>
+						<div class='col-xs-3'>
+							<a href='img/roadmap/3.jpg' target='_blank'><img src='img/roadmap/3.jpg' style='width: 100%; margin-top: 10px;'></a>
+						</div>
+					</div>
+					<div class='row'>
+						<div class='col-xs-3'>
+							<a href='img/roadmap/1.jpg' target='_blank'><img src='img/roadmap/4.png' style='width: 100%; margin-top: 10px;'></a>
+						</div>
+						<div class='col-xs-3'>
+							<a href='img/roadmap/2.jpg' target='_blank'><img src='img/roadmap/5.jpg' style='width: 100%; margin-top: 10px;'></a>
+						</div>
+						<div class='col-xs-3'>
+							<a href='img/roadmap/3.jpg' target='_blank'><img src='img/roadmap/6.jpg' style='width: 100%; margin-top: 10px;'></a>
+						</div>
+					</div>
+					<div class='row'>
+						<div class='col-xs-3'>
+							<a href='img/roadmap/1.jpg' target='_blank'><img src='img/roadmap/8.jpg' style='width: 100%; margin-top: 10px;'></a>
+						</div>
+						<div class='col-xs-3'>
+							<a href='img/roadmap/2.jpg' target='_blank'><img src='img/roadmap/9.jpg' style='width: 100%; margin-top: 10px;'></a>
+						</div>
+					</div>
+					<p> <small>Click on image </small></p>
+				</p>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
 
 		<div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture blue">
-				<img src="img/icons/kindness-roadmap/video-player.png" alt="Picture">
+				<img src="img/icons/kindness-roadmap/script.svg" alt="Picture">
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
-				<h2>Why The Kindness App (films)</h2>
+				<h2>Story Boarding</h2>
 				<p>
-          <i>Feeling stressed? Need some sleep? </i>
-          Three short films to put The Kindness App into context and why doing kindness is for everyone.
-        </p>
-				<!-- <a href="#0" class="cd-read-more">Read more</a>
-				<span class="cd-date">Jan 24</span> -->
+					I am in the process of creating a rough youtube draft with VO from yours truly.
+				</p>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
 
 		<div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-location">
-				<img src="img/icons/kindness-roadmap/success.svg" alt="Location">
+				<img src="img/icons/kindness-roadmap/cube.svg" alt="Location">
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
-				<h2>Combine the compassion</h2>
-				<p>At the minute, the app records your personal kindness.</p>
-				<p>But wouldn't it be cool if we could combine all our individual actions and accomplish something huge?</p>
-				<p>If you have any ideas please contact me below in the <span onclick='goTo("question")' class='hyperlink'>help me section.</span></p>
-				<!-- <a href="#0" class="cd-read-more">Read more</a>
-				<span class="cd-date">Feb 14</span> -->
+				<h2>Modeling</h2>				
+				<p>
+					To help generate some revenue, I'm going to start modeling lingerie.
+					I jest, I'm working on modeling the characters as the final animation will be in 3d.
+					For my first short sleep, I will need to model:
+					<ul>
+					<li> Panda </li>
+					<li> Bed </li>
+					<li> Thought bubble </li>
+					<li> Grizzly </li>
+					</ul>
+				</p>				
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+
+		<div class="cd-timeline-block">			
+			<div class="cd-timeline-img cd-picture">
+				<img src="img/icons/kindness-roadmap/play-button.svg" alt="Picture">
+			</div>
+			<div class="cd-timeline-content">
+				<h2>Animation</h2>
+				<p>
+					Next, I'll need to animate these models.
+					I have no idea what I'm doing (with any of these steps).
+					But I feel like this one is going to be the biggest time-sink.
+					Especially all the sleep deprived states that Panda's getting into
+				</p>
+				<!-- <a href="#0" class="cd-read-more">Read more</a> -->
+				<!-- <span class="cd-date">Jan 14</span> -->
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-movie">
+				<img src="img/icons/kindness-roadmap/film.svg" alt="Movie">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Putting it all together in 4OD</h2>
+				<p>
+					Part-time saint, part-time great friend 
+					<a href='http://www.jmortell.com/' target='_blank'>Joe Mortell</a> 
+					is showing me how to use Cinema 4D. 
+					The only thing I know about it is that you can spit out some great looking films out of it.
+				</p>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
    </div></div>
@@ -212,7 +282,7 @@
 							<div class="tp-banner" >
 								
 							<div onclick='window.open("http://www.mrmoonhead.com","_blank")' style="width: 100%; height: 500px;"></div>
-							<h1 class="leaderboardText" onclick="window.open('http://mrmoonhead.com','_blank')">see more work.</h1>
+							<h1 class="leaderboardText">see more work.</h1>
 							<div class="gradientBG"></div>
 
 					

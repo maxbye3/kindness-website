@@ -13,16 +13,6 @@
     margin:0px;
   }
  
-
-  iframe{
-    margin-top: 10px;
-  }
-
-  @media (max-width: 448px) {
-    iframe {
-        width: 100%;
-    }
-  }
   
   .frontPage{
     text-align: center;
@@ -34,9 +24,8 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+	
   }
-  
-
 
   header{
     height: 25vh;
@@ -68,13 +57,16 @@
 	font-size: 35px;
   }
 
-
+ li{
+   font-family: "Open Sans", sans-serif;
+   font-size: 10px;
+ }
   
-  ul{
+  .nav{
   	padding: 0px;
   }
 
-  li{
+  .nav li{
     list-style: none;
     width: 25%;
     float: left;
@@ -89,12 +81,12 @@
     padding: 5px;
   }
 
-  li a p{
+  .nav li a p{
     margin-top: 0px;
 		margin-bottom: 15px;
   }
 
-  li a img{
+  .nav li a img{
     width: 80%;
     max-width: 90px;
   }
@@ -176,7 +168,7 @@
     padding-top: 20px;
     width: 100%; 
     font-family: loveya; 
-    background: url('../img/background_red.png') fixed center;
+    background: orange;
   }
 
   .questionSection h1{
@@ -201,13 +193,3 @@
   .ios{
     background: #c83bb7 !important;
   }
-  
-  .ios h1, .android h1{
-	  font-family: bebas !important;
-  }
-  
-  .leaderboardText:hover {
-	  text-decoration: underline;
-	  cursor: pointer;
-  }
-  
